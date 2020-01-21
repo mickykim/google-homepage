@@ -6,12 +6,16 @@
     </head>
 
     <body>
-        <div id="navigation">
+        <div class="navigation">
             <ul>
-                <li><a href="https://about.google/"> About </a></li>
-                <li><a href="https://store.google.com/US/">Store</a></li>
-                <li><a href="https://gmail.com">Gmail</a></li>
-                <li><a href="https://www.google.com/imghp">Images</a></li>
+                <div class ="left">
+                    <li><a href="https://about.google/"> About </a></li>
+                    <li><a href="https://store.google.com/US/">Store</a></li>
+                </div>
+                <div class ="right">
+                    <li><a href="https://gmail.com">Gmail</a></li>
+                    <li><a href="https://www.google.com/imghp">Images</a></li>
+                </div>
             </ul>
         </div>
 
@@ -20,19 +24,23 @@
             <form action="scripts/nonexistantscript.py" method="POST">
                 <input type="text" name="search-query">
                 <br>
-                <input type="button" name="search" value="Google Search">
-                <input type="button" name="lucky" value="I'm Feeling Lucky">
+                <input type="button" class="button" name="search" value="Google Search">
+                <input type="button" class="button" name="lucky" value="I'm Feeling Lucky">
             </form>
         </div>
 
-        <div id="footer">
+        <div class="footer">
             <ul>
-                <li><a href="https://ads.google.com/intl/en_us/home/">Advertising</a></li>
-                <li><a href="https://www.google.com/services/">Business</a></li>
-                <li><a href="https://www.google.com/search/howsearchworks">How Search Works</a></li>
-                <li><a href="https://policies.google.com/privacy">Privacy</a></li>
-                <li><a href="https://policies.google.com/terms">Terms</a></li>
-                <li><a href="https://www.google.com/preferences">Settings</a></li>
+                <div class="left">
+                    <li><a href="https://ads.google.com/intl/en_us/home/">Advertising</a></li>
+                    <li><a href="https://www.google.com/services/">Business</a></li>
+                    <li><a href="https://www.google.com/search/howsearchworks">How Search works</a></li>
+                </div>
+                <div class="right">
+                    <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+                    <li><a href="https://policies.google.com/terms">Terms</a></li>
+                    <li><a href="https://www.google.com/preferences">Settings</a></li>
+                </div>
             </ul>
         </div>
     </body>
